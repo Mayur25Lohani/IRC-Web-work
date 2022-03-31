@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+/* html{
+    font-size: 62.5%;
+} */
+header{
+    margin-top: -1.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    background:linear-gradient(360deg, #00b4db,#0083b0);
+    width: 103%;
+}
+body{
+    /* background-image: url('whiteback2.jpg')no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: #eeeeee;
+}
+label{
+    color: #8c8a8ae3;
+    font-family: Merriweather;
+
+}
+span{
+    color: #8c8a8ae3;
+    font-family: Merriweather;
+}
+p{
+    color: #8c8a8ae3;
+    font-family: Merriweather;
+}
+.left1{
+    color: #f7aa02;
+    /* text-align: center; */
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-size: 1.7rem;
+    display: flex;
+    /* text-shadow: 2px 2px 1px #f7aa02; */
+}
+.left2{
+    color: #0BA231;
+    /* text-align: center; */
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    /* text-shadow: 2px 2px 1px #0BA231; */
+}
+.right1{
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: -6.5rem;
+    width: 5rem;
+}
+.right2{
+    display: flex;
+    margin-left: auto;
+    margin-right:7rem;
+    margin-top: -4.8rem;
+    width: 4.4rem;
+}
+#container{
+      text-align: center;
+}
+footer{
+    margin-top: -1.5rem;
+    margin-left: -1rem;
+    margin-right: -10rem;
+    margin-bottom: -1rem;
+    background:linear-gradient(360deg, #00b4db,#0083b0);
+    width: 103%;
+}
+.footer-heading{
+    margin-left: 2rem;
+    font-family: Merriweather;
+    color: #eeeeee;
+}
+.footer-content{
+    margin-left: 2rem;
+    font-family: Merriweather;
+    color: #eeeeee;
+}
+.Qk-lnk{
+    margin-left: 2rem;
+    font-family: Merriweather;
+    color: #eeeeee;
+}
+#a1{
+    margin-left: 2rem;
+    font-family: Merriweather;
+    text-decoration: none;
+}
+#a2{
+    margin-left: 2rem;
+    font-family: Merriweather;
+    text-decoration: none;
+}
+@media only screen and (min-width:738px) and (max-width:865px){
+    .left1{
+        font-size: 1.3rem;
+    }
+    .left2{
+        font-size: 1.15rem;
+    }
+    .right1{
+        margin-top: -4.9rem;
+        width: 4rem;
+    }
+    .right2{
+        margin-top: -4.1rem;
+        width: 3.8rem;
+        margin-right: 6rem;
+    }
+    
+}
+@media only screen and (min-width:600px) and (max-width:737px){
+    .left1{
+        font-size: 1rem;
+    }
+    .left2{
+        font-size: 0.9rem;
+    }
+    .right1{
+        margin-top: -4rem;
+        width: 3.5rem;
+    }
+    .right2{
+        margin-top: -3.5rem;
+        width: 3.3rem;
+        margin-right: 5rem;
+    }
+    
+}
+@media only screen and (min-width:472px) and (max-width:599px){
+    header{
+        margin-top: -1.5rem;
+        background:linear-gradient(to bottom, #00b4db,#0083b0);
+        width: 105%
+
+    }
+    .left1{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .left2{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .right1{
+        margin-top: 1rem;
+        width: 2.4rem;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+        display: block;
+    }
+    .right2{
+        margin-top: -1rem;
+        width: 2.2rem;
+        margin-right: auto;
+        display: block;
+    }
+    footer{
+        margin-bottom: -1rem;
+        width: 105%;
+    }
+    
+}
+@media(min-width:379px) and (max-width:471px){
+    header{
+        margin-top: -1.5rem;
+        background:linear-gradient(to bottom, #00b4db,#0083b0);
+        width: 135%
+
+    }
+    .left1{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .left2{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .right1{
+        margin-top: 1rem;
+        width: 2.4rem;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+        display: block;
+    }
+    .right2{
+        margin-top: -1rem;
+        width: 2.2rem;
+        margin-right: auto;
+        display: block;
+    }
+    footer{
+        margin-bottom: -1rem;
+        width: 135%
+    }
+    
+}
+@media(min-width:280px) and (max-width:378px){
+    header{
+        margin-top: -1.5rem;
+        background:linear-gradient(to bottom, #00b4db,#0083b0);
+        width: 185%
+
+    }
+    .left1{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .left2{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .right1{
+        margin-top: 1rem;
+        width: 2.4rem;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+        display: block;
+    }
+    .right2{
+        margin-top: -1rem;
+        width: 2.2rem;
+        margin-right: auto;
+        display: block;
+    }
+    footer{
+        margin-bottom: -1rem;
+        width: 185%
+    }
+    
+}
