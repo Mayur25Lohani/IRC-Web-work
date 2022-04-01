@@ -95,12 +95,46 @@ footer{
     font-family: Merriweather;
     text-decoration: none;
 }
-@media only screen and (min-width:738px) and (max-width:865px){
+@media only screen and (min-width:890px){
+    .left1{
+        font-size: 1.7rem;
+        /* margin-left: -18rem;
+        margin-right: 50%; 
+        /* position:relative; */
+    }
+    .left2{
+        font-size: 1.5rem;
+        /*margin-left: -18rem; 
+        position: relative; */
+    }
+    .right1{
+        margin-top: -5.9rem;
+        width: 4rem;
+    }
+    .right2{
+        margin-top: -4.1rem;
+        width: 3.8rem;
+        margin-right: 6rem;
+    }
+    label{
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+    span{
+        justify-content: center;
+    }
+    
+}
+@media only screen and (min-width:738px) and (max-width:889px){
     .left1{
         font-size: 1.3rem;
+        /* margin-left: -9rem; */
     }
     .left2{
         font-size: 1.15rem;
+        /* margin-left: -9rem; */
     }
     .right1{
         margin-top: -4.9rem;
@@ -111,14 +145,25 @@ footer{
         width: 3.8rem;
         margin-right: 6rem;
     }
+    label{
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+    span{
+        justify-content: center;
+    }
     
 }
-@media only screen and (min-width:600px) and (max-width:737px){
+@media only screen and (min-width:664px) and (max-width:737px){
     .left1{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        /* margin-left: -11.5rem; */
     }
     .left2{
-        font-size: 0.9rem;
+        font-size: 1.06rem;
+        /* margin-left: -11rem; */
     }
     .right1{
         margin-top: -4rem;
@@ -129,9 +174,18 @@ footer{
         width: 3.3rem;
         margin-right: 5rem;
     }
+    label{
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+    span{
+        justify-content: center;
+    }
     
 }
-@media only screen and (min-width:472px) and (max-width:599px){
+@media only screen and (min-width:472px) and (max-width:663px){
     header{
         margin-top: -1.5rem;
         background:linear-gradient(to bottom, #00b4db,#0083b0);
@@ -139,11 +193,11 @@ footer{
 
     }
     .left1{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: left;
     }
     .left2{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: left;
     }
     .right1{
@@ -158,6 +212,15 @@ footer{
         width: 2.2rem;
         margin-right: auto;
         display: block;
+    }
+    label{
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+    span{
+        justify-content: center;
     }
     footer{
         margin-bottom: -1rem;
@@ -173,11 +236,11 @@ footer{
 
     }
     .left1{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         text-align: left;
     }
     .left2{
-        font-size: 1rem;
+        font-size: 1.1rem;
         text-align: left;
     }
     .right1{
@@ -192,6 +255,15 @@ footer{
         width: 2.2rem;
         margin-right: auto;
         display: block;
+    }
+    label{
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+    span{
+        justify-content: center;
     }
     footer{
         margin-bottom: -1rem;
@@ -207,11 +279,11 @@ footer{
 
     }
     .left1{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: left;
     }
     .left2{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: left;
     }
     .right1{
@@ -226,6 +298,15 @@ footer{
         width: 2.2rem;
         margin-right: auto;
         display: block;
+    }
+    label{
+        justify-content: center;
+    }
+    p{
+        justify-content: center;
+    }
+    span{
+        justify-content: center;
     }
     footer{
         margin-bottom: -1rem;
