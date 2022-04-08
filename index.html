@@ -1,263 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- <script>
-    function msg(){
-      alert("Register to apply for Foreign Training Program-A medium through which you can gain expeience from foreign universities.")
-    }
-  </script> -->
-  <link href="style.css" rel="stylesheet" type="text/css"
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <link href="style.css" rel="stylesheet" type="text/css">
     <title>HTML FORMS</title>
 </head>
-<header>
-  <h2 class="left1"><u>INTERNATIONAL RELATIONS CELL,IIT KHARAGPUR</u></h2>
-  <h2 class="left2"><u>FOREIGN TRAINING PROGRAM(FTP) REGISTRATION FORM</u></h2>
-  <img class= "right1" src="./irclogo.png" alt="IRCLOGO">
-  <img class= "right2" src="./iitkgplogo.png" alt="IITKGPLOGO">
-  <br>
-</header>
 <body>
-        <div id="container">      
-        <form method="POST">
+  <div class="big-container">
+        <div class="header">
+        <div class="dabba1">
+        <h2><u>INTERNATIONAL RELATIONS CELL,IIT KHARAGPUR</u></h2>
+        <h2 id="left2"><u>FOREIGN TRAINING PROGRAM(FTP) REGISTRATION FORM</u></h2>
+        </div>
+        <div class="dabba2">
+        <img src="./irclogo4.png" alt="IRCLOGO">
+        </div>
+        <div class="dabba3">
+        <img src="./iitkgplogo4.png" alt="IITKGPLOGO">
+        </div>
+        </div>
+        <div class="container">      
+        <form action="#" method="POST">
           <!-- <section class="wlcm">
             <input type="button" value="Click me" onclick="msg()">button
           </section>
           <br> -->
-          <!-- <section class="col1">
-            <label for="col">Choose the theme of the webpage</label>
-            <input type="color" name="col" id="col">color
-          </section>
-          <br> -->
           <br><br>
-          <section class="naam">
-            <label for="fullname">1.Full Name<span style="color:red;">*</span></span></label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="text" name="fullname" id="fullname" required><!--text-->
-          </section>
-          <br>
-          <section class="age1">
-            <label for="age">2.Age<span style="color:red;">*</span></label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="number" name="age" id="age" min="7"  required><!--number-->
-          </section>
-          <br>
-          <section class="gen">
-            <span>3.Gender:<span style="color:red;">*</span></span>
-          <input type="radio" name="same" id="M" value="Male"><!--radio-->
-          <label for="M">Male</label>
-          <input type="radio" name="same" id="F" value="Female">
-          <label for="F">Female</label>
-          <input type="radio" name="same" id="O" value="Others">
-          <label for="O">Others</label>
-          </section>
-          <br>
-          <section class="dob1">
-            <label for="dob">4.Date of Birth<span style="color:red;">*</span></label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="date" name="dob" id="dob" required><!--date-->
-          </section>
-          <br>
-          <section class="emailid1">
-            <label for="email">5.Email-id<span style="color:red;">*</span></label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="email" name="email" id="email" value="abc@iitkgp.ac.in" required><!--email-->
-          </section>
-          <br>
-          <section class="contactinfo">
-            <label for="contact">6.Contact No.<span style="color:red;">*</span></label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="tel" name="contact" id="contact" maxlength="10" required><!--tel-->
-          </section>
-          <br>
-          <section class="pass1">
-            <label for=pass">7.Create Password<span style="color:red;">*</span></label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="password" name="pass" id="pass" minlength="8" maxlength="20" required><!--password-->
-            <!-- <br><br>
-            <label for=pass2">8.Confirm Password</label>
-            <input type="password" name="pass2" id="pass2" minlength="8" maxlength="20" required>password -->
-          </section>
-          <br>
-          <!-- <section class="applicantdetails">
-            <label for="appid">9.Applicant Id</label>
-            <input type="hidden" name="appid" id="appid" value="5467">hidden
-          </section>
-          <br> -->
-          <section class="recomen">
-            <label for="rec">8.Attach recommendations(if any)</label>
-            <input style="opacity:0.7;" type="file" name="rec" id="rec" ><!--file-->
-          </section>
-          <br>
-          <!-- <section class="duration">
-            <label for="dur">10.Till when do you want to apply for the program</label>
-            <input type="month" name="dur" id="dur" >month
-          </section>
-          <br> -->
-          <section class="url1">
-            <label for="urll">9.Add url of your research work published(if any)</label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="url" name="urll" id="urll"><!--url-->
-          </section>
-          <br>
-          <!-- <section class="num">
-            <label for="num">12.Which is your preferred cotinent,if any?</label>
-            <select name="num" id="num">select element
-            <option value="asia">Asia</option>
-            <option value="australia">Australia</option>
-            <option value="europe">Europe</option>
-            <option value="northamerica">North America</option>
-            <option value="africa">Africa</option>
-          </select>
-          </section>
-          <br> -->
-          <!-- <section class="btn1">
-            <span>13.Which universities do you prefer in Asia?</span>
-          <br><br>
-          <input type="checkbox" name="u1" id="u1" value="Chang Gung University">checkbox
-          <label for="u1">Chang Gung University</label>
-          <br>
-          <input type="checkbox" name="u2" id="u2" value="Singapore Management University">
-          <label for="u2">Singapore Management University</label>
-          <br>
-          <input type="checkbox" name="u3" id="u3" value="The Faculty and Graduate School of Agriculture, Kyoto University">
-          <label for="u3">The Faculty and Graduate School of Agriculture, Kyoto University</label>
-          <br>
-          <input type="checkbox" name="u4" id="u4" value="Moscow Aviation Institute (National Research University)">
-          <label for="u4">Moscow Aviation Institute (National Research University)</label>
-          <br>
-          <input type="checkbox" name="u5" id="u5" value="Research and Development Center of Nippon Koei Co. Ltd. (RDCNK)">
-          <label for="u5">Research and Development Center of Nippon Koei Co. Ltd. (RDCNK)</label>
-          <br>
-          <input type="checkbox" name="u6" id="u6" value="Ben-Gurion University">
-          <label for="u6">Ben-Gurion University</label>
-          <br>
-          <input type="checkbox" name="u7" id="u7" value="Accelerator Laboratory, High Energy Accelerator Research Organization (KEK), Japan">
-          <label for="u7">Accelerator Laboratory, High Energy Accelerator Research Organization (KEK), Japan</label>
-          <br>
-          </section>
-          <br> -->
-          <!-- <section class="btn2">
-            <span>14.Which universities do you prefer in Australia?</span>
-          <br><br>
-          <input type="checkbox" name="u2" id="u2" value="Curtin University">
-          <label for="u2">Curtin University </label>
-          <br>
-          <input type="checkbox" name="u3" id="u3" value="University of Queensland">
-          <label for="u3">University of Queensland</label>
-          <br>
-          <input type="checkbox" name="u4" id="u4" value="University of Melboune">
-          <label for="u4">University of Melboune</label>
-          <br>
-          <input type="checkbox" name="u7" id="u7" value="University of Wollongong">
-          <label for="u7">University of Wollongong</label>
-          <br>
-          <input type="checkbox" name="u8" id="u8" value="University of Auckland">
-          <label for="u8">University of Auckland</label>
-          <br>
-          <input type="checkbox" name="u9" id="u9" value="James Cook University">
-          <label for="u9">James Cook University</label>
-          <br>
-          <input type="checkbox" name="u10" id="u10" value="University of New Castle, Australia">
-          <label for="u10">University of New Castle, Australia</label>
-          <br>
-          </section>
-          <br>
-          <section class="btn3">
-            <span>15.Which universities do you prefer in Europe?</span>
-          <br><br>
-          <input type="checkbox" name="u1" id="u1" value="European Spallation Source (ESS), Sweden">checkbox
-          <label for="u1">European Spallation Source (ESS), Sweden</label>
-          <br>
-          <input type="checkbox" name="u2" id="u2" value="The University of Manchester (JDP)">
-          <label for="u2">The University of Manchester (JDP)</label>
-          <br>
-          <input type="checkbox" name="u3" id="u3" value="University of Leeds">
-          <label for="u3">University of Leeds</label>
-          <br>
-          <input type="checkbox" name="u4" id="u4" value="University of Sheffield">
-          <label for="u4">University of Sheffield</label>
-          <br>
-          <input type="checkbox" name="u5" id="u5" value="University of Lorraine">
-          <label for="u5">University of Lorraine</label>
-          <br>
-          <input type="checkbox" name="u6" id="u6" value="Leibniz Universität Hannover, Germany">
-          <label for="u6">Leibniz Universität Hannover, Germany</label>
-          <br>
-          <input type="checkbox" name="u7" id="u7" value="Tomas Bata University, Zlin, Czech Republic">
-          <label for="u7">Tomas Bata University, Zlin, Czech Republic</label>
-          <br>
-          </section>
-          <br> -->
-          <!-- <section class="btn4">
-            <span>16.Which universities do you prefer in North America?</span>
-          <br><br>
-          <input type="checkbox" name="u1" id="u1" value="The University of Texas Rio Grande Valley">checkbox
-          <label for="u1">The University of Texas Rio Grande Valley</label>
-          <br>
-          <input type="checkbox" name="u2" id="u2" value="University of Waterloo">
-          <label for="u2">University of Waterloo</label>
-          <br>
-          <input type="checkbox" name="u3" id="u3" value="Guru Krupa Foundation">
-          <label for="u3">Guru Krupa Foundation</label>
-          <br>
-          <input type="checkbox" name="u4" id="u4" value="University of Alberta">
-          <label for="u4">University of Alberta</label>
-          <br>
-          <input type="checkbox" name="u5" id="u5" value="University of Georgia">
-          <label for="u5">University of Georgia</label>
-          <br>
-          <input type="checkbox" name="u6" id="u6" value="New Mexico State University">
-          <label for="u6">New Mexico State University</label>
-          <br>
-          <input type="checkbox" name="u7" id="u7" value="Purdue University">
-          <label for="u7">Purdue University</label>
-          <br>
-          </section>
-          <br>
-          <section class="btn5">
-            <span>17.Which universities do you prefer in Africa?</span>
-          <br><br>
-          <input type="checkbox" name="u1" id="u1" value="University of Rwanda">checkbox
-          <label for="u1">University of Rwanda</label>
-          </section>
-          <br> -->
-          <!-- <section class="priceran">
-            <label for="pricerange">10.Your preffered price range?</label>
-            <span>Rs75000</span>
-            <input type="range" name="pricerange" id="pricerange" min="75000" max="10000000" value="4000000" step="25000" required>range
-            <span>Rs10000000</span>
-          </section>
-          <br> -->
-          <!-- <section class="datetim1">
-            <label for="datetime">19.Enter your local date and time</label>
-            <input type="datetime-local" name="datetime" id="datetime" >datetime-local
-          </section>
-          <br>
-          <section class="weekselection1">
-            <label for="weekselection">20.Select the week of your departure</label>
-            <input type="week" name="weekselection" id="weekselection">week
-          </section>
-          <br>
-          <section class="timeselection1">
-            <label for="timeselection">21.Select the time of departure</label>
-            <input type="time" name="timeselection" id="timeselection">time
-          </section>
-          <br> -->
-          <section class="searching1">
-            <label for="searching">10.Search Universities reviews</label>
-            <input style="height:20px;outline: 0; border-width: 0 0 1px;border-radius: 0 0 0 0;border-color: black; opacity:0.4;" type="search" name="searching" id="searching"><!--search-->
-          </section>
-          <br>
-          <p><strong>Click on Reset button to reset the form or Submit button to submit it.</strong></p>
-            <input style="margin-right:4rem;color:#ffffff;background:linear-gradient(360deg, #00b4db,#0083b0);width: 5rem;height:1.8rem;border-radius: 10px;font-size: 1rem;cursor:pointer;" type="reset" value="Reset"><!--reset-->
-            <!-- <input style="margin-bottom:-0.8rem;background-color: #f8f8f8;"type="image" src="./subtn.jfif" width="95rem" alt="submit">image -->
-            <input style="color:#ffffff;background:linear-gradient(360deg, #00b4db,#0083b0);width: 5rem;height:1.8rem;border-radius: 10px;font-size: 1rem;cursor: pointer;" type="submit" value="Submit" ><!--submit -->
-          <!-- <br><br>
-          <section class="img1">
-            <input type="image" src="./subtn.jfif" width="11.5%" alt="submit">image
-          </section>
-          <br> -->
-          </form>
+          <div class="user-details">
+          <div class="input-box">
+            <label for="fullname">Full Name<span style="color:red;">*</span></span></label>
+            <input type="text" name="fullname" id="fullname" required><!--text-->
           </div>
           <br>
-          <p style="text-align:center;"><strong>Hope you have a great carrer ahead.Thank you!!</strong></p><br><br>
-          <footer>
+          <div class="input-box">
+            <label for="age">Age<span style="color:red;">*</span></label>
+            <input type="number" name="age" id="age" min="7"  required><!--number-->
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="dob">Date of Birth<span style="color:red;">*</span></label>
+            <input type="date" name="dob" id="dob" style="opacity: 0.4;"required><!--date-->
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="email">Email-id<span style="color:red;">*</span></label>
+            <input type="email" name="email" id="email" placeholder="abc@iitkgp.ac.in" style="opacity: 0.4;" required><!--email-->
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="contact">Contact No.<span style="color:red;">*</span></label>
+            <input type="tel" name="contact" id="contact" maxlength="10" required><!--tel-->
+          </div>
+          <br>
+          <div class="input-box">
+            <label for=pass">Create Password<span style="color:red;">*</span></label>
+            <input type="password" name="pass" id="pass" minlength="8" maxlength="20" required><!--password-->
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="rec">Attach recommendations(if any)</label><br>
+            <input style="opacity:0.7;" type="file" name="rec" id="rec" ><!--file-->
+          </div>
+          <br>
+          <div class="input-box">
+            <label for="urll">Add url of your research work published(if any)</label>
+            <input type="url" name="urll" id="urll"><!--url-->
+          </div>
+          </div>
+          <div class="gender-details">
+            <span class="gender-title">Gender:<span style="color:red;">*</span></span>
+          <div class="choose-button">
+          <input id="radbut" type="radio" name="same" id="M" value="Male"><!--radio-->
+          <label for="M">Male</label>
+          <input id="radbut" type="radio" name="same" id="F" value="Female">
+          <label for="F">Female</label>
+          <input id="radbut" type="radio" name="same" id="O" value="Others">
+          <label for="O">Others</label>
+          </div>
+          </div>
+          <div class="final">
+          <!-- <p style="text-align:center;"><strong>Click on Reset button to reset the form or Submit button to submit it.</strong></p>
+            <input id="button1" type="reset" value="Reset">reset -->
+            <input id="button1" type="submit" value="Submit" ><!--submit -->
+          </div>
+          </form>
+          </div>
+  </div>  
+          <!-- <br>
+          <p style="text-align:center;"><strong>Hope you have a great carrer ahead.Thank you!!</strong></p><br><br> -->
+          <!-- <div class="footer">
             <div class="footer__section">
               <h1 class="footer-heading">International Relations Cell</h1>
               <hr style="width: 28rem;margin-left: 2rem;margin-top: -1.8rem;" />
@@ -269,11 +110,11 @@
                   Kharagpur.</p>
               </div>
               <div class="links">
-                <h3 class="Qk-lnk">Quick Links:</h3>
+                <h3 id="Qk-lnk">Quick Links:</h3>
                 <a id="a1" href="https://ircell.iitkgp.ac.in/">Visit Our Website</a><br><br>
                 <a id="a2" href="https://ircell.iitkgp.ac.in/#contact">Contact Us</a><br><br>
               </div>
-          </footer>
+            </div> -->
           
 </body>
 </html>
